@@ -1,108 +1,46 @@
-// // ==============================questioon 1==========================
-// var value = prompt("Enter the city")
-// if(value == "karachi"){
-//     alert("Welcome to city of light")
+// // ===========================Question 1===================
+// var number = parseFloat(prompt("Enter a number:"));
+
+// if (number > 0) {
+//     console.log("The number entered is positive.");
+// } else if (number < 0) {
+//     console.log("The number entered is negative.");
+// } else {
+//     console.log("The number entered is zero.");
+// }
+
+
+
+// // ================================Question 2=============================
+// // Prompt the user to enter two integers
+// var num1 = parseInt(prompt("Enter the first integer:"));
+// var num2 = parseInt(prompt("Enter the second integer:"));
+
+// // Check if the numbers are equal or not
+// if (num1 === num2) {
+//     console.log("The two integers are equal.");
+// } else {
+//     // Display the larger integer
+//     if (num1 > num2) {
+//         console.log("The larger integer is: " + num1);
+//     } else {
+//         console.log("The larger integer is: " + num2);
+//     }
+// }
+// ===========================Question 5=========================
+
+
+// var pass= prompt("Ente the password")
+// var cpass= prompt("Ente the confirm password")
+
+// if(pass == cpass){
+//     alert("Correct")
 // }
 // else{
-//     alert("welcome")
-// }
-
-
-// // ===========================Question2 =======================
-
-
-
-// var Gender = prompt("Enter your Gender")
-
-// if(Gender == "male"){
-//     alert("Good morning sir");
-// }
-// else if(Gender == "female"){
-//     alert("Good morning mam");
-
-// }
-// else{
-//     alert("Good morning ")
-// }
-
-// ===========================Question3 =======================
-
-
-
-// var Trafficlight = prompt("Enter your Trafficlight")
-
-// if(Trafficlight == "red"){
-//     alert("Must Stop");
-// }
-// else if(Trafficlight == "yellow"){
-//     alert("Ready to move");
-// }
-// else if(Trafficlight == "green"){
-//     alert("GO");
-// }
-// else{
-//     alert("Stop ")
-// }
-// ===============================Question 4===========================
-
-// var fuel = prompt("Enter the remaining fuel in car")
-
-// if(fuel < 5){
-//     alert("Please refill the fuel in your car")
-// }
-// else{
-//     alert("enough petrol")
+//     alert('Please check the confirm password ')
 // }
 
 
 
-// ======================== Question 5 ========================
-// function calculatepercentage(marksobtained,totalMArks){
-//     return(marksobtained / totalMArks ) * 100
-// }
-// function computerGrade(percentage){
-//     if (percentage >= 90){
-//         return 'A+';
-//     }
-//     else if (percentage>=80){
-//         return A;
-//     }
-//     else if (percentage>=70){
-//         return B;
-//     }
-//     else if (percentage>=60){
-//         return C;
-//     }
-//     else if (percentage>=50){
-//         return D;
-//     }
-//     else {
-//         return'fail'
-//     }
-// }
 
-// var mark1 = parseFloat(prompt("Enter mark 1:"));
-// var mark2 = parseFloat(prompt("Enter mark 2:"));
-// var mark3 = parseFloat(prompt("Enter mark 3:"));
-// var totalMArks = parseFloat(prompt("Enter mark tota;:"));
-
-// var marksobtained = mark1 + mark2 + mark3;
-
-
-//  var percentage = calculatepercentage(marksobtained, totalMArks);
-//  var grade = computerGrade(percentage)
- 
-// document.write("Total Marks Obtained: " + marksobtained);
-// document.write(" <br>Percentage: " + percentage + "%");
-// document.write("<br>Grade: " + grade);
-
-
-// ==============================Quesion 6=============================
-
-var number = prompt("Enter a number:");
-
-if (number % 2 === 0) {
-    console.log(`The number ${number} is even.`);
-} else {
-    console.log(`The number ${number} is odd`);
-}
+// ===================Question 6=============================
