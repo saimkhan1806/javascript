@@ -41,6 +41,28 @@
 // }
 
 
+// ===================== Question 7===========================
 
 
-// ===================Question 6=============================
+// var time = prompt("Enter the timme")
+
+// if(time >= 0 && time < 6){
+//     alert("Good Morning")
+// }
+// else if(time >= 6 && time < 13 ){
+//     alert("Good aftternoon")
+// }
+// else if(time >= 13 && time < 17 ){
+//     alert("Good Evening")
+// }
+// else if(time >= 17 && time < 22 ){
+//     alert("Good Night")
+// }
+var greeting;
+var hour = 19;
+if (hour < 18) {
+greeting = "Good day";}
+else{
+greeting = "Good evening";
+}
+console.log(greeting)
